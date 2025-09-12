@@ -22,7 +22,7 @@ const Header = () => {
     </>
   );
   return (
-    <div className="navbar bg-black text-white ">
+    <div className="navbar fixed z-5 bg-opacity-30 text-white backdrop-blur max-w-screen-xl">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -67,11 +67,11 @@ const Header = () => {
       </div>
       <div className="">
         <>
-          <Link className="mr-3 underline text-white hover:text-gray-400" to="/register">
+          <Link className="mr-3 underline text-white btn-ghost" to="/register">
             Register
           </Link>
           <Link to="/signin">
-            <button className="btn bg-white hover:bg-gray-400 text-black">Log In</button>
+            <button className="btn bg-white border-none btn-ghost text-black">Log In</button>
           </Link>
         </>
       </div>
