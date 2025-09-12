@@ -5,9 +5,9 @@ import './Featured.css';
 
 const Featured = () => {
   return (
-    <div className="featured-items mb-20">
+    <div className="featured-items bg-fixed mb-20">
       <SectionTitle subHeading={"Check it out"} heading={"FROM OUR MENU"} />
-      <div className="md:flex justify-center items-center pb-20 pt-12 px-36">
+      <div className="md:flex justify-center bg-slate-500/50 items-center pb-20 pt-12 px-36">
         <div>
           <img src={featuredImg} alt="" />
         </div>
@@ -20,7 +20,7 @@ const Featured = () => {
             Eaque repellat recusandae ad laudantium tempore consequatur
             consequuntur omnis ullam maxime tenetur.
           </p>
-          <button className="btn mt-5 btn-outline">Order Now</button>
+          <button className="btn mt-5 rounded-xl border-b-4 btn-outline">Order Now</button>
         </div>
       </div>
     </div>
