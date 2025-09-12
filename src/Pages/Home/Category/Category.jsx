@@ -10,14 +10,13 @@ import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 const Category = () => {
   return (
     <section>
-        <SectionTitle
+      <SectionTitle
         subHeading={"From 11:00am to 10:00pm"}
         heading={"Order Online"}
-        />
+      />
       <Swiper
-        slidesPerView={4}
+        slidesPerView={3}
         spaceBetween={30}
-        centeredSlides={true}
         pagination={{
           clickable: true,
         }}
@@ -26,26 +25,26 @@ const Category = () => {
       >
         <SwiperSlide>
           <img src={img1} alt="" />
-          <h1 className="text-4xl uppercase text-center -mt-20 pb-5 text-white">
+          <h1 className="text-4xl uppercase mr-30 text-center -mt-20 pb-5 text-white">
             Salads
           </h1>
         </SwiperSlide>
         <SwiperSlide>
           <img src={img2} alt="" />
-          <h1 className="text-4xl uppercase text-center -mt-20 text-white">
+          <h1 className="text-4xl mr-30 uppercase text-center -mt-20 pb-5 text-white">
             Pizzas
           </h1>
         </SwiperSlide>
         <SwiperSlide>
           <img src={img3} alt="" />
-          <h1 className="text-4xl uppercase text-center -mt-20 text-white">
+          <h1 className="text-4xl mr-30 uppercase text-center -mt-20 pb-5 text-white">
             Soups
           </h1>
         </SwiperSlide>
         <SwiperSlide>
           <img src={img4} alt="" />
-          <h1 className="text-4xl uppercase text-center -mt-20 text-white">
-            Deserts
+          <h1 className="text-4xl mr-30 uppercase text-center -mt-20 pb-5 text-white">
+            Desserts
           </h1>
         </SwiperSlide>
       </Swiper>
