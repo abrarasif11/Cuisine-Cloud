@@ -7,16 +7,20 @@ import Featured from "./Featured/Featured";
 import Testimonials from "../Testimonials/Testimonials";
 import CallUs from "../CallUs/CallUs";
 import MenuCard from "../MenuCard/MenuCard";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Cuisine Cloud | Home </title>
+      </Helmet>
       <Banner />
       <Category />
       <ChefBanner />
       <PopularMenu />
       <CallUs />
-      <MenuCard/>
+      <MenuCard />
       <Featured />
       <Testimonials />
     </div>
