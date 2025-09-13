@@ -5,6 +5,8 @@ import ChefBanner from "./ChefBanner/ChefBanner";
 import PopularMenu from "./PopularMenu/PopularMenu";
 import Featured from "./Featured/Featured";
 import Testimonials from "../Testimonials/Testimonials";
+import CallUs from "../CallUs/CallUs";
+import MenuCard from "../MenuCard/MenuCard";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <Category />
       <ChefBanner />
       <PopularMenu />
+      <CallUs />
+      <MenuCard/>
       <Featured />
       <Testimonials />
     </div>
